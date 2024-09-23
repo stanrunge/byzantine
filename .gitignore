@@ -1,0 +1,19 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+bin/
+*.exe
+*.out
+
+# Libraries
+lib/
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE-specific files
+.vscode/
+*.swp
