@@ -1,12 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "node.h"
 #include <string.h>
-
-#define NUM_NODES 100
-
-Node nodes_list[NUM_NODES];
 
 void initialize_nodes()
 {
@@ -39,6 +34,7 @@ char *get_command(char *command)
 
 void add_node()
 {
+
     return;
 }
 
@@ -80,8 +76,6 @@ void run_command(char *command)
     }
 
     printf("Invalid command\n");
-
-    return;
 }
 
 int main()
