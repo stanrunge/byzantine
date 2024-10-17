@@ -76,8 +76,6 @@ void run_command(char *command)
     }
 
     printf("Invalid command\n");
-
-    return;
 }
 
 int main()
